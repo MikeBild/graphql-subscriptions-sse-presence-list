@@ -1,0 +1,43 @@
+enum STATUS {
+  INACTIVE
+  LEFT
+  BUSY
+  AVAILABLE
+}
+
+type User {
+  id: ID
+  alias: String
+  presence: Presence
+}
+
+type Presence {
+  id: ID
+  status: STATUS
+  user: User
+}
+
+type Query {
+  users: [User]
+  presences: [Presence]
+}
+
+input PresenceInput {
+  id: ID
+  status: STATUS
+}
+
+input UserInput {
+  id: ID
+  alias: String
+}
+
+type Mutation {
+  join(input: UserInput): User
+  leave(id: ID): User
+  toggle(input: PresenceInput): User
+}
+
+type Subscription {
+  onPresence: User
+}
