@@ -1,6 +1,6 @@
 # GraphQL subscriptions over HTTP Server-Side-Events
 
-This is a simple show case application of an reactive **user presence list** to explain **"How to handle long running processes aka sagas in a Event-Driven- respectively CQRS-Architecture?"** using:
+This is a simple show case application of an reactive **user presence list** to explain **"How to handle long running processes aka sagas in a Event-Driven- respectively CQRS-Architecture with GraphQL?"** using:
 
 * NodeJS
 * ExpressJS
