@@ -1,0 +1,9 @@
+{
+  "variables": [
+    "SERVICE_PORT=80"
+  ],
+  "alias": "graphql-subscriptions-sse-server.services.dropstack.run",
+  "type": "npm",
+  "name": "yltswunf",
+  "serviceUrl": "yltswunf.services.dropstack.run"
+}

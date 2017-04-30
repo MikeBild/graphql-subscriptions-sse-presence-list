@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack-dev-server -d --progress --hot --inline --no-info --port 5000",
     "build": "webpack -p --progress --config webpack.config.prod.js",
-    "serve": "serve build"
+    "serve": "serve build",
+    "deploy": "npm version patch --force -m \"Version %s\" && npm run build && dropstack deploy"
   },
   "author": "Mike Bild <mike.bild@googlemail.com>",
   "license": "MIT",
