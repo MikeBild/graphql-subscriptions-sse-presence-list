@@ -1,4 +1,4 @@
-# User presence list via GraphQL subscriptions over HTTP Server-Side-Events
+# GraphQL subscriptions over HTTP Server-Side-Events
 
 ## Server
 
