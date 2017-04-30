@@ -4,8 +4,8 @@ import { ApolloClient, ApolloProvider, createNetworkInterface, gql, graphql, com
 import { SubscriptionClient, addGraphQLSubscriptions } from 'subscriptions-transport-sse'
 import Layout from './Layout'
 
-const httpClient = createNetworkInterface({uri: `http://localhost:8080/graphql`})
-const sseClient = new SubscriptionClient(`http://localhost:8080/subscriptions`, {})
+const httpClient = createNetworkInterface({uri: `${process.env.GRAPHQL_URL}/graphql`})
+const sseClient = new SubscriptionClient(`${process.env.GRAPHQL_URL}/subscriptions`, {})
 const client = new ApolloClient({networkInterface: addGraphQLSubscriptions(httpClient, sseClient)})
 
 ReactDOM.render(

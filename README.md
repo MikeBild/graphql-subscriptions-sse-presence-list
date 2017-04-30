@@ -4,13 +4,14 @@
 
 This is a simple show case of **User pPresence List** application using:
 
-* NodeJs
-* ExpressJs
-* GraphQL API
-* GraphQL-Subscriptions over Server-Side-Events
-* RxJs
-* React
-* Apollo GraphQL-Client
+* [NodeJs](https://nodejs.org)
+* [ExpressJs](https://expressjs.com)
+* [GraphQL](https://github.com/facebook/graphql)
+* [GraphQL-Subscriptions over Server-Side-Events](https://github.com/MikeBild/subscriptions-transport-sse)
+* [RxJs](http://reactivex.io)
+* [React](https://facebook.github.io/react/)
+* [Apollo GraphQL-Client](http://www.apollodata.com/)
+* [Material-UI lite](https://getmdl.io)
 
 ## Server
 
