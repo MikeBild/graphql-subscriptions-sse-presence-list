@@ -4,21 +4,22 @@
 
 This is a simple show case of **User pPresence List** application using:
 
-* NodeJS
-* ExpressJS
+* NodeJs
+* ExpressJs
 * GraphQL API
 * GraphQL-Subscriptions over Server-Side-Events
+* RxJs
 * React
 * Apollo GraphQL-Client
 
 ## Server
 
-* [NodeJS GraphQL Server implementation](server/README.md)
+* [GraphQL Server implementation](server/README.md)
 * [Live example](https://graphql-subscriptions-sse-server.services.dropstack.run/graphql)
 
 ## Client
 
-* [React + Apollo Client implementation](client/README.md)
+* [Client implementation](client/README.md)
 * [Live example](https://graphql-subscriptions-app.services.dropstack.run)
 
 ## Issue Reporting
