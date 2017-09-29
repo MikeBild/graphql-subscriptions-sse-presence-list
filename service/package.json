@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "service",
+  "description": "My GraphQL API",
+  "engines": {
+    "node": "^6"
+  },
+  "dependencies": {
+    "rxjs": "^5.4.3",
+    "subkit": "latest",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "dev": "nodemon --ext idl,js --exec subkit serve --port 8080",
+    "start": "NODE_ENV=production subkit serve --port 80 --secret SuperSecret --silent",
+    "test": "mocha --require babel-polyfill --compilers js:babel-register"
+  }
+}

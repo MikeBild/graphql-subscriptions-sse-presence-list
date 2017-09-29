@@ -13,7 +13,7 @@ type User {
 
 type Presence {
   id: ID
-  status: STATUS
+  status: String
   user: User
 }
 
@@ -24,7 +24,7 @@ type Query {
 
 input PresenceInput {
   id: ID
-  status: STATUS
+  status: String
 }
 
 input UserInput {
