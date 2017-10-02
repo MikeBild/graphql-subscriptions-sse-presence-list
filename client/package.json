@@ -13,10 +13,10 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
-    "react": "^15.6.1",
+    "react": "^16.0.0",
     "react-apollo": "^1.4.4",
-    "react-dom": "^15.6.1",
-    "subscriptions-transport-sse": "^0.4.1"
+    "react-dom": "^16.0.0",
+    "subscriptions-transport-sse": "^0.5.3"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -26,8 +26,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "html-webpack-plugin": "^2.28.0",
-    "serve": "^5.1.4",
-    "webpack": "^2.4.1",
+    "serve": "^6.1.0",
+    "webpack": "^3.6.0",
     "webpack-dev-server": "^2.4.5"
   }
 }

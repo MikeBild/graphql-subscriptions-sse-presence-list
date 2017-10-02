@@ -1,6 +1,6 @@
 {
   "variables": [],
-  "alias": "graphql-subscriptions-app.services.dropstack.run",
+  "alias": "https://subkit-subscriptions-app.cloud.dropstack.run",
   "type": "spa",
   "name": "vxibdajy",
   "serviceUrl": "vxibdajy.services.dropstack.run"

@@ -1,0 +1,9 @@
+{
+  "variables": "",
+  "instances": 1,
+  "alias": "subkit-subscriptions-server.cloud.dropstack.run",
+  "type": "npm",
+  "excludes": [],
+  "name": "yltswunf",
+  "serviceUrl": "yltswunf.cloud.dropstack.run"
+}
