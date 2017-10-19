@@ -1,13 +1,15 @@
 {
   "private": true,
   "name": "graphql-subscriptions-presence-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GraphQL subscriptions via SSE",
   "scripts": {
-    "dev": "webpack-dev-server -d --progress --hot --inline --no-info --port 5000",
+    "dev":
+      "webpack-dev-server -d --progress --hot --inline --no-info --port 5000",
     "build": "webpack -p --progress --config webpack.config.prod.js",
     "serve": "serve build",
-    "deploy": "npm version patch --force -m \"Version %s\" && npm run build && dropstack deploy"
+    "deploy":
+      "npm version patch --force -m \"Version %s\" && npm run build && dropstack deploy"
   },
   "author": "Mike Bild <mike.bild@googlemail.com>",
   "license": "MIT",

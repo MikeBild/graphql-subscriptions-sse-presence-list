@@ -1,7 +1,9 @@
 {
-  "variables": [],
+  "variables": "",
+  "instances": 1,
   "alias": "https://subkit-subscriptions-app.cloud.dropstack.run",
   "type": "spa",
+  "excludes": [],
   "name": "vxibdajy",
-  "serviceUrl": "vxibdajy.services.dropstack.run"
+  "serviceUrl": "vxibdajy.cloud.dropstack.run"
 }
