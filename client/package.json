@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "graphql-subscriptions-presence-client",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "GraphQL subscriptions via SSE",
   "scripts": {
     "dev":

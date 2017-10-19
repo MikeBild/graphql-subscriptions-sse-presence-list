@@ -1,7 +1,7 @@
 {
-  "variables": "",
+  "variables": "GRAPHQL_URL=https://subkit-subscriptions-server.cloud.dropstack.run",
   "instances": 1,
-  "alias": "https://subkit-subscriptions-app.cloud.dropstack.run",
+  "alias": "subkit-subscriptions-app.cloud.dropstack.run",
   "type": "spa",
   "excludes": [],
   "name": "vxibdajy",
